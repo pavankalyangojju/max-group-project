@@ -1160,6 +1160,57 @@ table {
   }
 }
 
+@media only screen and (min-width: 0px) and (max-width: 675px) {
+  #cat {
+    display: none;
+  }
+  #catt {
+    display: none;
+  }
+  #hide {
+    display: none;
+  }
+  #contact {
+    display: none;
+  }
+
+  .mid {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  hr {
+    display: none;
+  }
+  .contu {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+  #logo {
+    display: grid;
+  }
+  #header {
+  }
+
+  #header #first > div {
+    justify-content: flex-start;
+  }
+  #second-box-of-shiping {
+    display: none;
+  }
+  #header #first {
+    justify-content: center;
+    position: relative;
+    right: 145px;
+  }
+  #header #fourth {
+    justify-content: center;
+    position: relative;
+    right: 145px;
+  }
+}
+
 /* maggie  */
 #hoverover {
   margin-top: 200px;
