@@ -1099,7 +1099,7 @@ table {
   margin-bottom: 50px;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 375px) {
+@media only screen and (min-width: 0px) and (max-width: 400px) {
   #cat {
     display: none;
   }
@@ -1148,19 +1148,38 @@ table {
     position: relative;
     right: 145px;
   }
-}
-@media only screen and (min-width: 600px) {
-  #tab {
-    display: none;
+  /* #budget-zone-img  */
+  #budget-zone-img {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
   #last {
-    display: flex;
-    margin-left: 120px;
-    margin-top: 25px;
+    display: grid;
+    height: 300px;
+  }
+  #last #logo2 p {
+    display: grid;
+  }
+  #Subscribe {
+    text-align: center;
+  }
+
+  #Subscribe input,
+  button {
+    text-align: center;
+    display: inline;
+    width: 50%;
+  }
+  #contact {
+  }
+  .contu {
+  }
+  #max-last-div {
+    justify-content: center;
   }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 675px) {
+@media only screen and (min-width: 376px) and (max-width: 675px) {
   #cat {
     display: none;
   }
